@@ -14,7 +14,7 @@ public class RedisServiceTest {
 
     @Test
     public void setValueTest(){
-        redisService.setData("1", "1", 3000L);
+        redisService.setData("1", "1", 5000L);
         assertEquals("1", redisService.getData("1"));
         System.out.println(redisService.getData("1"));
     }
